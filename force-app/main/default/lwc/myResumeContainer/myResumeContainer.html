@@ -14,8 +14,16 @@
            <div class="slds-grid slds-wrap">
                <div class="slds-col slds-size_1-of-1 slds-medium-size_9-of-12 slds-large-size_9-of-12">
                    <c-my-resume-experience details={RESUME_DATA.EXPERIENCE_DATA}></c-my-resume-experience>
-                   <c-my-resume-extra details={RESUME_DATA.EDUCATION_DATA}></c-my-resume-extra>
                </div>
+                <div class="slds-col slds-size_1-of-1 slds-medium-size_3-of-12 slds-large-size_3-of-12">
+                    <c-my-resume-skills details={RESUME_DATA.SKILLS_DATA}></c-my-resume-skills>
+                   <c-my-resume-extra details={RESUME_DATA.EDUCATION_DATA}></c-my-resume-extra>
+                    <c-my-resume-extra details={RESUME_DATA.CERTIFICATION_DATA}></c-my-resume-extra>
+                    <c-my-resume-extra details={RESUME_DATA.LANGUAGES_DATA}></c-my-resume-extra>
+                    <section class="slds-var-p-left_medium">
+                    <c-my-resume-tags tags-list={RESUME_DATA.INTERESTS_DATA.LIST} heading={RESUME_DATA.INTERESTS_DATA.HEADING} type="MAIN"></c-my-resume-tags>
+                    </section>
+                </div>
            </div>
         </div>
     </div>

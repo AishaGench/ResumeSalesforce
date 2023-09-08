@@ -1,5 +1,5 @@
 import SOCIAL from '@salesforce/resourceUrl/SOCIAL'
-import aisha from '@salesforce/resourceUrl/aisha';
+import aisha from '@salesforce/resourceUrl/aisha'
 export const PROFILE_IMAGE = aisha
 
 export const SOCIAL_LINKS=[
@@ -21,6 +21,7 @@ export const SOCIAL_LINKS=[
         link: "https://github.com/AishaGench",
         icon: SOCIAL + '/SOCIAL/github.svg'
     },
+   
 ]
 export const USER_DETAILS={
     NAME:'Aisha Gench',
@@ -168,4 +169,61 @@ export const EDUCATION_DATA={
             UNIVERSITY_NAME: "Softinnovas Coding School",
         }
     ]
+}
+export const CERTIFICATION_DATA={
+    ICON: SOCIAL + '/SOCIAL/certification.svg',
+    HEADING: "CERTIFICATIONS",
+    LIST: [
+        {
+            NAME: "Salesforce Certified Platform Developer I",
+        },
+        {
+            NAME: "Salesforce Admin Certification",
+        }
+    ]
+}
+export const LANGUAGES_DATA={
+    HEADING: "Languages",
+    LIST: [
+        {
+            NAME: "English",
+            LEVEL: "Professional",
+        },
+        {
+            NAME: "Turkish",
+            LEVEL: "Native",
+        }
+    ]
+}
+export const SKILLS_DATA ={
+    HEADING: "SKILLS & TOOLS",
+    SKILLS:[
+        {
+            HEADING: "CRM",
+            SKILLS_LIST: [
+                { NAME: "Salesforce", LEVEL: "50" },
+            ],
+        },
+        {
+            HEADING: "QA",
+            SKILLS_LIST: [
+                { NAME: "Java", LEVEL: "75" },
+            ],
+        }
+    ],
+    OTHERS_SKILLS:{
+        HEADING: 'OTHERS',
+        SKILLS_LIST: 
+        [
+            "Git",
+            "Jira",
+            "Confluence",
+            "Agile"
+        ]
+    }
+    
+}
+export const INTERESTS_DATA = {
+    HEADING: "Interests",
+    LIST: ["Cooking", "Reading", "Craft"]
 }
