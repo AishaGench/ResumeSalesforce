@@ -6,9 +6,16 @@
             user-details={RESUME_DATA.USER_DETAILS}
             profile-image={PROFILE_IMAGE}
             ></c-my-resume-header>
-        </div> 
+        </div>
         <div class="slds-var-p-around_medium">
             <c-my-resume-summary details={RESUME_DATA.CAREER_SUMMARY}></c-my-resume-summary>
+        </div>
+        <div class="slds-var-p-around_medium">
+           <div class="slds-grid slds-wrap">
+               <div class="slds-col slds-size_1-of-1 slds-medium-size_9-of-12 slds-large-size_9-of-12">
+                   <c-my-resume-experience details={RESUME_DATA.EXPERIENCE_DATA}></c-my-resume-experience>
+               </div>
+           </div>
         </div>
     </div>
 </template>
