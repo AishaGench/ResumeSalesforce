@@ -150,3 +150,22 @@ export const EXPERIENCE_DATA={
         }
     ]
 }
+export const EDUCATION_DATA={
+    ICON: SOCIAL + '/SOCIAL/education.svg',
+    HEADING: "EDUCATION",
+    LIST:[
+        {
+            NAME: "Turkish Language and Literature",
+            UNIVERSITY_NAME: "University of Prishtina BSc",
+            DURATION: "2008 - 2012",
+        },
+        {
+            NAME: "Full-Stack Automation Testing",
+            UNIVERSITY_NAME: "Cybertek Coding School",
+        },
+        {
+            NAME: "Full-Stack Web Dev",
+            UNIVERSITY_NAME: "Softinnovas Coding School",
+        }
+    ]
+}
