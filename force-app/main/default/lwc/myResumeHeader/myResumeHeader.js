@@ -11,5 +11,4 @@ export default class MyResumeHeader extends LightningElement {
     get emailLink() {
         return `mailto:${this.userDetails.EMAIL}`
     }
-
 }
